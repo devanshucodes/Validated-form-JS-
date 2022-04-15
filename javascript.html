@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <p> Hy Devanshu Saxena</p>
+    <p id="hw" > How are you ? </p>
+
+    <button type="button" 
+    onclick="myfunction()"
+  
+    
+     > CLICK HERE </button>
+
+     <script>
+        var num = 50 ;
+        var num2 = 50;
+        var num3 = 100;
+        console.log(num+num2+num3);
+
+
+        var marks = {
+           devanshu:40,
+           rohan:50,
+           manas:60,
+
+        }
+
+        console.log(marks);
+    
+        var arr = [1,2,3,4,5,"string","hy","devanshu","saxena"]
+        console.log(arr)
+
+
+        var a=100
+        var b=10
+        console.log("Sum is", a+b)
+        console.log("Diffrence is", a-b)
+        console.log("Product is", a*b)
+        console.log("division  is", a/b)
+
+
+
+        var d = 40
+        var e = 40
+        console.log(d == e)
+        console.log(d <= e)
+        console.log(d >= e)
+        console.log(d <  e)
+        console.log(d >  e)
+
+
+        console.log(true && true )
+        console.log(true && false )
+        console.log(false && false )
+
+
+        console.log(true || true )
+        console.log(true || false )
+        console.log(false || false )
+    
+        function avg(a,b){
+            c=(a+b)/2;
+            return c;
+
+        }
+
+        c1= avg(10,10);
+        c2= avg(20,30);
+        console.log(c1,c2);
+
+
+
+        var a = 23;
+        if (a <10 ){
+            console.log(" Under Aged ")
+        }
+        else if (a <14 ){
+            console.log(" Teen ")
+        }
+        else if (a <18 ){
+            console.log(" Soon 18 ")
+        }
+        else if (a <22 ){
+            console.log(" Not a kid ")
+        }
+        else if (a <26 ){
+            console.log(" Adult ")
+        }
+        else if (a <30 ){
+            console.log(" Aged ")
+        }
+
+
+        var arr =[1,2,3,4,5,6,7,8,9]
+        console.log(arr);
+        for( var i=0;i<arr.length;i++)
+        console.log(arr[i]);
+
+
+     </script>
+</body>
+</html>
